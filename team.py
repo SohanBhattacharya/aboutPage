@@ -81,7 +81,7 @@ with col1:
     # Apply rounded corners (modify radius as needed)
     rounded_img = round_corners(original_img, radius=1000)
 
-    st.image(rounded_img, use_container_width=True)
+    st.image(rounded_img, use_column_width=True)
 
 with col2:
     st.title("Sohan Bhattacharya: [Team Lead]")
@@ -125,7 +125,7 @@ with col2:
     # Apply rounded corners (modify radius as needed)
     rounded_img = round_corners(original_img, radius=1000)
 
-    st.image(rounded_img, use_container_width=True)
+    st.image(rounded_img, use_column_width=True)
 
 
 #----------------------ANTAR PAUL---------------------------------------------------
@@ -141,7 +141,7 @@ with col1:
     # Apply rounded corners (modify radius as needed)
     rounded_img = round_corners(original_img, radius=1000)
 
-    st.image(rounded_img, use_container_width=True)
+    st.image(rounded_img, use_column_width=True)
 
 with col2:
     st.title("Antar Paul:")
@@ -166,4 +166,5 @@ with col2:
     )
 
 st.markdown("---")
+
 
