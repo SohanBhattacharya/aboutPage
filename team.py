@@ -13,7 +13,7 @@ img = Image.open(image_path)
 col1, col2, col3 = st.columns([0.4, 5, 0.7])
 
 with col1:
-    st.image(img, width=100, caption="", use_container_width=False)
+    st.image(img, width=100, caption="", use_column_width=False)
 
 with col2:
     st.markdown(
@@ -163,3 +163,4 @@ with col2:
         unsafe_allow_html=True
     )
 st.markdown("---")
+
