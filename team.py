@@ -5,25 +5,23 @@ from PIL import Image, ImageDraw, ImageOps
 
 st.set_page_config(page_title="WhiteDragon AI", layout="wide")
 
-
-
 # Path to your downloaded image
 image_path = "Dragon Image.png"
 # Load the image
 img = Image.open(image_path)
 # Create two columns: one for the image, one for the text
-col1, col2= st.columns([0.4, 5])
+col1, col2, col3 = st.columns([0.4, 5, 0.7])
 
 with col1:
-    st.image(img, width=100, caption="", use_column_width=False)
+    st.image(img, width=100, caption="", use_container_width=False)
 
 with col2:
     st.markdown(
         "<h2 style='margin: 0; display: flex; align-items: center;'>WhiteDragon AI Teams</h2>",
         unsafe_allow_html=True,
     )
-
-
+with col3:
+    st.markdown("[Our Teams](https://about-page.streamlit.app/)")
 # CSS to make the image circular
 st.markdown(
     """
@@ -70,7 +68,7 @@ def round_corners(img, radius=40):
     return rounded_img
 #-----------------------SOHAN BHATTACHARYA---------------------------------------------
 
-img_path = "sohan.jpeg"
+img_path = r"sohan.jpeg"
 
 # Create 2 columns
 col1, col2 = st.columns([1,3])
@@ -164,7 +162,4 @@ with col2:
          coordination, we ultimately delivered a streamlined and highly accessible user experience.""",
         unsafe_allow_html=True
     )
-
 st.markdown("---")
-
-
