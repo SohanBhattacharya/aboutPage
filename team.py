@@ -15,7 +15,7 @@ img = Image.open(image_path)
 col1, col2= st.columns([0.4, 5])
 
 with col1:
-    st.image(img, width=100, caption="", use_container_width=False)
+    st.image(img, width=100, caption="", use_column_width=False)
 
 with col2:
     st.markdown(
@@ -164,4 +164,5 @@ with col2:
          coordination, we ultimately delivered a streamlined and highly accessible user experience.""",
         unsafe_allow_html=True
     )
+
 st.markdown("---")
