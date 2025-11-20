@@ -70,7 +70,7 @@ def round_corners(img, radius=40):
     return rounded_img
 #-----------------------SOHAN BHATTACHARYA---------------------------------------------
 
-img_path = r"C:\Users\sukan\Desktop\Deploy Chatbot\sohan.jpeg"
+img_path = "sohan.jpeg"
 
 # Create 2 columns
 col1, col2 = st.columns([1,3])
@@ -99,7 +99,7 @@ with col2:
 
 #-----------------------------------------PRABHAT SHAW---------------------------------------------------
 st.markdown("---")
-img_path = r"C:\Users\sukan\Desktop\Deploy Chatbot\prabhat.jpeg"
+img_path = r"prabhat.jpeg"
 
 # Create 2 columns
 col1, col2 = st.columns([3,1])
@@ -130,7 +130,7 @@ with col2:
 
 #----------------------ANTAR PAUL---------------------------------------------------
 st.markdown("---")
-img_path = r"C:\Users\sukan\Desktop\Deploy Chatbot\antar.jpeg"
+img_path = r"antar.jpeg"
 
 # Create 2 columns
 col1, col2 = st.columns([1,3])
@@ -166,3 +166,4 @@ with col2:
     )
 
 st.markdown("---")
+
