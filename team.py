@@ -10,7 +10,7 @@ image_path = "Dragon Image.png"
 # Load the image
 img = Image.open(image_path)
 # Create two columns: one for the image, one for the text
-col1, col2, col3 = st.columns([0.4, 5, 0.7])
+col1, col2, col3 = st.columns([0.5, 5, 0.7])
 
 with col1:
     st.image(img, width=100, caption="", use_column_width=False)
@@ -163,5 +163,6 @@ with col2:
         unsafe_allow_html=True
     )
 st.markdown("---")
+
 
 
