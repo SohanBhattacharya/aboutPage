@@ -21,7 +21,7 @@ with col2:
         unsafe_allow_html=True,
     )
 with col3:
-    st.markdown("[Our Teams](https://about-page.streamlit.app/)")
+    st.markdown("[Go Back To Homepage](https://stockpriceprediction-ai.streamlit.app/)")
 # CSS to make the image circular
 st.markdown(
     """
@@ -163,4 +163,5 @@ with col2:
         unsafe_allow_html=True
     )
 st.markdown("---")
+
 
